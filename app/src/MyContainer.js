@@ -1,4 +1,4 @@
-import MyComponent from "./MyComponent";
+import VoteForm from "./VoteForm";
 import { drizzleConnect } from "drizzle-react";
 
 const mapStateToProps = state => {
@@ -10,6 +10,6 @@ const mapStateToProps = state => {
   };
 };
 
-const MyContainer = drizzleConnect(MyComponent, mapStateToProps);
+const MyContainer = drizzleConnect(VoteForm, mapStateToProps);
 
 export default MyContainer;
