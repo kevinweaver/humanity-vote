@@ -1,4 +1,4 @@
-import VoteForm from "./VoteForm";
+import Layout from "./Layout";
 import { drizzleConnect } from "drizzle-react";
 
 const mapStateToProps = state => {
@@ -10,6 +10,6 @@ const mapStateToProps = state => {
   };
 };
 
-const MyContainer = drizzleConnect(VoteForm, mapStateToProps);
+const Container = drizzleConnect(Layout, mapStateToProps);
 
-export default MyContainer;
+export default Container;
